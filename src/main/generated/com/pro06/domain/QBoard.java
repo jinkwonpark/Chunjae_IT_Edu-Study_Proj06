@@ -29,7 +29,7 @@ public class QBoard extends EntityPathBase<Board> {
     public final DateTimePath<java.time.LocalDateTime> modDate = _super.modDate;
 
     //inherited
-    public final DateTimePath<java.time.LocalDateTime> regDate = _super.regDate;
+    public final DateTimePath<java.time.LocalDateTime> regdate = _super.regdate;
 
     public final StringPath title = createString("title");
 
