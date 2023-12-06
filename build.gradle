@@ -37,7 +37,6 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	// implementation 'org.springframework.boot:spring-boot-starter-security'
 	// implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
-	implementation 'org.modelmapper:modelmapper:3.1.0'
 	testImplementation 'org.projectlombok:lombok:1.18.26'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
@@ -46,6 +45,9 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+
+	// Model Mapper 설정
+	implementation 'org.modelmapper:modelmapper:3.1.0'
 
 	// Lombok을 테스트 환경에서도 사용하기
 	testCompileOnly 'org.projectlombok:lombok'
